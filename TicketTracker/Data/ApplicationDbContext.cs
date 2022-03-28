@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using TicketTrackerModels;
 
 namespace TicketTracker.Data
 {
@@ -9,5 +10,11 @@ namespace TicketTracker.Data
             : base(options)
         {
         }
+        public ApplicationDbContext() :base()
+        {
+            //Default
+        }
+        public DbSet<Ticket> Tickets { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

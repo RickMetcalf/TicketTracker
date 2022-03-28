@@ -28,5 +28,10 @@ namespace TicketTrackerModels
         public double HoursOfLabor { get; set; }
         [Required]
         public string StakeholderEmails { get; set; }
+
+        public virtual Category? Category { get; set; }
+
+        [Required]
+        public int CategoryId { get; set; }
     }
 }

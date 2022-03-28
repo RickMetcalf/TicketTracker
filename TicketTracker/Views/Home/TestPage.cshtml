@@ -1,0 +1,21 @@
+﻿
+
+@model TicketTrackerModels.Ticket
+@{
+    ViewData["Title"] = "TestPage";
+}
+
+<h1 style="color: tomato">Test Page</h1>
+<ul>
+    <li style="color: cornflowerblue">
+        @Model.TicketCreatedBy
+    </li>
+    <li>
+        @Model.Description
+    </li>
+    <li>
+        @Model.Issue
+    </li>
+    
+</ul>
+

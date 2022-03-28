@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 using TicketTracker.Models;
+using TicketTrackerModels;
 
 namespace TicketTracker.Controllers
 {
@@ -16,6 +17,26 @@ namespace TicketTracker.Controllers
         public IActionResult Index()
         {
             return View();
+        }
+        public IActionResult TestPage()
+        {
+            var ticket = new Ticket();
+            ticket.Id = 999;
+            ticket.Priority = Priority.Critical;
+            ticket.Status = Status.Open;
+            ticket.TicketCreatedBy = "John Appleseed";
+            ticket.HoursOfLabor = 5.0;
+            ticket.Issue = "You need to complete your cyber awareness";
+            ticket.StakeholderEmails = "bob@gmail.com";
+            ticket.Description = "idk";
+            ViewData["myCustomeKey"] = "myData";
+            return View(ticket);
+        }
+        public IActionResult SimpleDataPage()
+        {
+            var s = "simple data";
+            ViewData["myCustomeKey"] = "myData";
+            return View(s);
         }
 
         public IActionResult Privacy()
