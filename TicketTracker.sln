@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketTracker", "TicketTracker\TicketTracker.csproj", "{5CE3B3E2-7113-4DD6-AB39-F3E74C714F91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketTrackerModels", "TicketTrackerModels\TicketTrackerModels.csproj", "{5F316ACD-8A54-4466-BF0F-76AB7FEC86E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5CE3B3E2-7113-4DD6-AB39-F3E74C714F91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CE3B3E2-7113-4DD6-AB39-F3E74C714F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CE3B3E2-7113-4DD6-AB39-F3E74C714F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CE3B3E2-7113-4DD6-AB39-F3E74C714F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F316ACD-8A54-4466-BF0F-76AB7FEC86E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F316ACD-8A54-4466-BF0F-76AB7FEC86E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F316ACD-8A54-4466-BF0F-76AB7FEC86E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F316ACD-8A54-4466-BF0F-76AB7FEC86E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {09D89977-7AA5-4976-8DBA-3ED8676DD78F}
+	EndGlobalSection
+EndGlobal
